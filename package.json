@@ -16,5 +16,8 @@
     "type": "git",
     "url": "\"https://github.com/gnouccc/danhbaspa#danhbaspa\""
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
