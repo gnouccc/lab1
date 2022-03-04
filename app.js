@@ -1,5 +1,7 @@
 const express = require("express");
 const cors = require("cors");
+const setupContactRoutes = require("./app/routes/contact.routes");
+
 
 const app = express();
 
@@ -9,5 +11,6 @@ app.use(express.json());
 app.get("/", (req, res)=> {
     res.json({ massage: "Welcome to contact book application."});
 });
+
 
 module.exports = app;
