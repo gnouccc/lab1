@@ -4,4 +4,4 @@ const handlePromise = (promise) => {
         .catch((error) => [error, undefined]);
 };
 
-module.exports = hendlePromise;
+module.exports = handlePromise;
